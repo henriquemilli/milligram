@@ -16,7 +16,7 @@ services:
       - '443:8443'
     volumes:
       - 'wordpress_data:/bitnami/wordpress'
-      - '/path/to/git/repo/:/bitnami/wordpress/wp-content/themes/pixdata-theme'
+      # - '/path/to/git/repo/:/bitnami/wordpress/wp-content/themes/some-theme'
     depends_on:
       - mariadb
     environment:
