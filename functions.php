@@ -17,9 +17,9 @@ if ( ! defined( '_S_VERSION' ) ) {
  */
 require 'updater/plugin-update-checker.php';
 $myUpdateChecker = Puc_v4_Factory::buildUpdateChecker(
-	'https://github.com/henriquemilli/dummy-theme',
+	'https://github.com/henriquemilli/milligram',
 	__FILE__,
-	'dummy-theme'
+	'milligram'
 );
 $myUpdateChecker->setBranch('master');
 # $myUpdateChecker->setAuthentication('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');
